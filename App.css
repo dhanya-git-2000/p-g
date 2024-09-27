@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.header{
+  background-color: rgb(203, 202, 202);
+  height: 6vh;
+  color: #09318c;
+  font-weight: 900;
+ text-align: left !important;
+}
+/* .content{
+  height: 97vh;
+  background-color: rgb(251, 251, 251);
+  overflow-y: hidden;
+} */
+.content-header{
+  color: #051c53;
+  font-size: 2.53125vh;
+  text-align: left !important;
+
+}
+p {
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+  margin-left:2rem;
+}
+.employee-table {
+  width: 95%;
+  border-collapse: collapse;
+  border: #fff;
+  border: 2px solid #ddd;
+  margin-top: 2%;
+  margin-left:2rem;
+  box-shadow: "6px 7px 5px lightblue" !important
+}
+
+.employee-table th,
+.employee-table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+.employee-table th {
+  color: #09318c;
+  background-color:azure;
+  text-align: left;
+}
+.content-header-right{
+  float: right;
+}
+.content-header-container {
+  display: flex;
+  margin-right: 2rem !important;
+  justify-content: space-between; /* Distributes items with space between them */
+
+}
+.table-header{
+  font-weight: 100px !important;
+  
+}
+th{
+  font-weight:600
+}
+.table-data{
+  color:rgb(203, 133, 82);
+  margin-left: 5px !important;
+}
+.table-name{
+  color:rgb(58, 116, 204)
+}
